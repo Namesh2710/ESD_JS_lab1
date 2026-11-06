@@ -8,6 +8,7 @@ export function createIdGenerator(prefix) {
     counter++;
     return `${prefix}-${counter}`;
   };  
+  
 }
 
 // A function factory: returns a check that "remembers" the limit.
