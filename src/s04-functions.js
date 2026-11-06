@@ -21,4 +21,5 @@ export function buildButtons(courses, onAdd) {
     label: `Add ${course.code}`,
     onClick: () => onAdd(course.id),
   }));
+  
 }
