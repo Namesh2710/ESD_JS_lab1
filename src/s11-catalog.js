@@ -8,6 +8,7 @@ export function byDepartment(courses, department) {
   return courses.filter(
     (course) =>
       course.department.toLowerCase() === department.toLowerCase()
+    
   );
 }
 
