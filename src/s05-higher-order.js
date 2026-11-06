@@ -12,6 +12,7 @@ export function countWhere(list, predicate) {
   return count;
 }
 
+
 // Returns a comparator for Array.prototype.sort that orders by one field,
 // ascending. Works for strings and numbers.
 export function byField(field) {
