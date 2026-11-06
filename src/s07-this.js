@@ -12,6 +12,7 @@ export class PlannerList {
     this.ids = [];
     this.add = this.add.bind(this);
   }
+  
 
   add(id) {
     this.ids.push(id);
