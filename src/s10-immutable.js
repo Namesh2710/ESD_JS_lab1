@@ -8,6 +8,7 @@ export function addToPlanner(planner, courseId) {
     return planner;
   }
   return [...planner, courseId];
+   
 }
 
 // Remove an id. If it is not there, return the SAME array.
