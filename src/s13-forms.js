@@ -8,6 +8,7 @@ export function isComplete(values) {
   if (!code.trim() || !title.trim() || !department.trim()) {
     return false;
   }
+  
    const numericCredits = Number(credits);
    return (
     Number.isInteger(numericCredits) &&
