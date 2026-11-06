@@ -9,6 +9,7 @@ export function describeCourse({ code, title, credits = 3 }) {
 // variable, so you need a computed property key.
 export function updateField(form, name, value) {
   return { ...form, [name]: value};
+  
 }
 
 // Return a NEW object without one key. Use rest in a destructuring.
